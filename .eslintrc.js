@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': 0,
     'react/state-in-constructor': 0,
-
+    'import/no-duplicates': 0,
+    'react/no-unused-state': 0,
   },
 };

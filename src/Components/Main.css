@@ -55,7 +55,6 @@ background: #51c5de;
 
 }
 
-
 .tasks li .edit{
 margin-right: 15px;
 color:#51c5de;
@@ -72,6 +71,11 @@ color:#f04c64;
   transition: all 700ms ;
 }
 .tasks li .edit,
-.tasks li .delet{
+.tasks li .delete{
   cursor: pointer;
+}
+
+.tasks li span {
+  display: flex;
+  align-items: center;
 }
